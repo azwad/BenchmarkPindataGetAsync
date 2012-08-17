@@ -1,0 +1,26 @@
+Benchmark: timing 10 iterations of Blocking, NonBlocking...
+@ BLOCKING @
+@ BLOCKING @
+@ BLOCKING @
+@ BLOCKING @
+@ BLOCKING @
+@ BLOCKING @
+@ BLOCKING @
+@ BLOCKING @
+@ BLOCKING @
+@ BLOCKING @
+  Blocking: 702 wallclock secs (322.61 usr +  1.42 sys = 324.03 CPU) @  0.03/s (n=10)
+@ NON BLOCKING @
+@ NON BLOCKING @
+@ NON BLOCKING @
+@ NON BLOCKING @
+@ NON BLOCKING @
+@ NON BLOCKING @
+@ NON BLOCKING @
+@ NON BLOCKING @
+@ NON BLOCKING @
+@ NON BLOCKING @
+NonBlocking: 354 wallclock secs (325.05 usr +  1.40 sys = 326.45 CPU) @  0.03/s (n=10)
+            s/iter NonBlocking    Blocking
+NonBlocking   32.6          --         -1%
+Blocking      32.4          1%          --
